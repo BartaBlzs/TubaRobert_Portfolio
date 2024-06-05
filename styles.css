@@ -21,6 +21,7 @@
 .flex img {
     width: 100%;
     max-height: calc(100vh - 20px);
+    cursor: pointer;
 }
 
 .flex .pte-bg {

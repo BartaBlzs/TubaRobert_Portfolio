@@ -13,10 +13,10 @@
             <span>Portfolio for PTE</span>
         </div>
         <div class="imgs flex">
-            <img src="https://placehold.co/1920x1080" alt="">
-            <img src="https://placehold.co/1920x1080" alt="">
-            <img src="https://placehold.co/1920x1080" alt="">
-            <img src="https://placehold.co/1920x1080" alt="">
+            <img src="1920x1080.png" alt="">
+            <img src="1920x1080.png" alt="">
+            <img src="1920x1080.png" alt="">
+            <img src="1920x1080.png" alt="">
         </div>
         <footer class="pte-bg flex footer">
             <span>This website was made by <a href="https://bartabalazs.hu">Balazs Barta</a></span>
@@ -24,4 +24,10 @@
         </footer>
     </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script>
+    $('.imgs > img').click(function(e) {
+        window.open(e.target.src, '_blank').focus();
+    })
+</script>
 </html>
