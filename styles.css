@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Optima Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima Medium'), url('Optima Medium.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Optima Medium';
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex img {
+    width: 100%;
+    max-height: calc(100vh - 20px);
+}
+
+.flex .pte-bg {
+    height: 30vh;
+    width: 100%;
+    color: white;
+    background-color: #102444;
+    justify-content: center;
+}
+
+.flex .title {
+    font-size: 20px;
+}
+
+.flex .title span:first-child {
+    font-size: 50px;
+}
+
+.flex .footer {
+    height: 10vh;
+}
+
+.flex .footer a {
+    color: white;
+}
